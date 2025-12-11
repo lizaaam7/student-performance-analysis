@@ -297,7 +297,7 @@ f_stat, p_value = stats.f_oneway(*groups)
 
 ---
 
-## 🔧 Полезные Python-конструкции
+##  Полезные Python-конструкции
 
 ### List Comprehension
 ```python
@@ -333,4 +333,5 @@ df_melted = df.melt(id_vars='gender', value_vars=['math_score', 'reading_score']
 | `plt.pie()` | matplotlib | Круговая диаграмма |
 | `stats.ttest_ind()` | scipy | T-тест |
 | `stats.f_oneway()` | scipy | ANOVA |
+
 
